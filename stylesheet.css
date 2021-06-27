@@ -1,0 +1,432 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nyt-logo {
+    width: 25%;
+    position: relative;
+    bottom: 180px;
+
+}
+
+.whatsapp {
+    margin-left: -5px;
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 1px;
+}
+
+.facebook {
+    margin-left: -40px;
+}
+
+.twitter,
+.mail,
+.share,
+.comment-box {
+    margin-left: 10px;
+}
+
+.sub-header {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-nav {
+    position: fixed;
+    bottom: 607px;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.h-nav .ms-side {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    top: 10px;
+}
+
+h1 {
+    font-size: 35px;
+    word-spacing: -17px;
+    font-family: englishtowne;
+    position: fixed;
+    left: 350px;
+    bottom: 580px;
+}
+
+
+.header {
+    position: fixed;
+}
+
+.main-p {
+    margin-top: -30px;
+    margin-left: 150px;
+    position: relative;
+    top: 10px;
+
+}
+
+.alan-guth {
+    width: 700px;
+    height: 450px;
+}
+
+.topic {
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    width: 70%;
+    border-bottom: 1px grey solid;
+    padding: 8px;
+}
+
+body {
+    color: #333;
+}
+
+a.social-icons {
+    text-decoration: none;
+    list-style: none;
+}
+
+.head-tag {
+    font-weight: bold;
+    position: fixed;
+
+}
+
+.socials {
+    width: 600px;
+    padding-top: 1px;
+    display: flex;
+    margin-left: 150px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+ul.nav-socials {
+    list-style: none;
+    display: flex;
+    padding-right: 10em;
+}
+
+
+.h-nav .sl-side {
+    padding: 0;
+    list-style: none;
+    position: relative;
+    left: 780px;
+    bottom: 380px;
+    width: 90%;
+
+}
+
+
+input.login {
+    width: 8%;
+}
+
+input.sub {
+    width: 15%;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    word-spacing: 500px ggg
+}
+
+article {
+    width: 600px;
+    position: relative;
+    left: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
+    margin-top: 20px;
+}
+
+.dennis {
+    font-size: 85%;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.article-b {
+    position: relative;
+    top: 250px;
+    margin-bottom: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
+}
+
+a.cosmic-waves {
+    text-decoration: underline;
+}
+
+a.cosmic-waves:hover {
+    text-decoration: none;
+}
+
+.article-c {
+    position: relative;
+    top: -150px;
+    font-size: 120%;
+}
+
+.article-d {
+    position: relative;
+    top: 50px;
+    font-size: 120%;
+}
+
+.article-e {
+    position: relative;
+    top: 300px;
+    font-size: 120%;
+}
+
+.article-f {
+    position: relative;
+    top: 500px;
+    font-size: 120%;
+}
+
+.article-g {
+    position: relative;
+    top: 900px;
+    font-size: 120%;
+}
+
+.article-h {
+    position: relative;
+    top: 1200px;
+    font-size: 120%;
+}
+
+aside {
+    position: absolute;
+}
+
+.editors-pick {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 850px;
+    align-content: center;
+}
+
+
+.illustrations {
+    width: 64%;
+    border-top: 1px grey solid;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 1600px;
+    padding-bottom: 20px;
+}
+
+.subscrpt {
+    margin-left: 13px;
+}
+
+a.nav {
+    color: grey;
+}
+
+a.nav:hover {
+    text-decoration: underline;
+}
+
+.btm {
+    display: inline;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 45px;
+}
+
+.license {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+}
+
+figcaption {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+}
+
+.date {
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a.author:hover {
+    text-decoration: none;
+}
+
+a.author {
+    color: #333;
+    text-decoration: underline;
+
+}
+
+.stanfordvid {
+    position: relative;
+    right: 40px;
+}
+
+.stanfordvideo {
+    font-size: 75%;
+
+}
+
+.bicepimg {
+    position: relative;
+    right: 45px;
+    width: 600px;
+    height: 400px;
+}
+
+.bicep2 {
+    position: relative;
+    right: 45px;
+    font-size: 70%;
+    color: #333;
+}
+
+a.champagne {
+    text-decoration: underline;
+}
+
+section {
+    position: absolute;
+    left: 820px;
+    top: 2110px;
+    background-color: aqua;
+}
+
+a.picks {
+    color: #333;
+    font-size: 90%;
+    font-weight: normal;
+}
+
+a.picks:hover {
+    text-decoration: underline;
+}
+
+.version {
+    font-size: 60%;
+}
+
+input {
+    background-color: rgb(86, 123, 149);
+    width: 60%;
+    padding: 0.6rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.weekender {
+    position: relative;
+    top: 1430px;
+    text-align: center;
+}
+
+input.explore {
+    background-color: black;
+    width: 35%;
+    color: white;
+    font-size: 85%;
+}
+
+.sky {
+    position: relative;
+    width: 960px;
+    height: 495px;
+    right: 185px;
+    top: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 35px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.box {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+.bottom {
+    border-top: 1px #333 solid;
+}
+
+.bottom-nav {
+    margin-right: 100px;
+}
+
+.space {
+    margin-left: 15px;
+}
+
+.search {
+    margin-left: 15px;
+}
