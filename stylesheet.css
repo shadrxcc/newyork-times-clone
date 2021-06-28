@@ -17,6 +17,7 @@ html {
   width: 25%;
   position: relative;
   bottom: 180px;
+  margin-left: 350px;
 }
 
 .whatsapp {
@@ -143,7 +144,6 @@ input.sub {
 
 a {
   text-decoration: none;
-  word-spacing: 500px;
   color: #333;
 }
 
@@ -398,4 +398,10 @@ ul {
 
 .search {
   margin-left: 15px;
+}
+
+iframe {
+  width: 600px;
+  height: 319px;
+  border: 0;
 }
