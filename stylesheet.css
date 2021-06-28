@@ -137,13 +137,14 @@ input.login {
 
 input.sub {
   width: 15%;
-  margin-left: 0px;
+  margin-left: 0;
   padding-right: 10px;
 }
 
 a {
   text-decoration: none;
-  word-spacing: 500px ggg
+  word-spacing: 500px;
+  color: #333;
 }
 
 article {
@@ -277,14 +278,14 @@ figcaption {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a.author:hover {
-  text-decoration: none;
-}
-
 a.author {
   color: #333;
   text-decoration: underline;
 }
+
+a.author:hover {
+    text-decoration: none;
+  }
 
 .stanfordvid {
   position: relative;
@@ -379,11 +380,6 @@ input.explore {
   width: 15%;
 }
 
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 ul {
   list-style: none;
 }
@@ -395,6 +391,7 @@ ul {
 .bottom-nav {
   margin-right: 100px;
 }
+
 .space {
   margin-left: 15px;
 }
