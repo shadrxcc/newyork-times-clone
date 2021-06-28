@@ -46,7 +46,7 @@ html {
   flex-direction: column;
 }
 
-.h-nav {
+.ms-side {
   position: fixed;
   bottom: 607px;
   align-items: center;
@@ -57,7 +57,7 @@ html {
   z-index: 1;
 }
 
-.h-nav .ms-side {
+.ms-side .h-nav {
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -124,11 +124,11 @@ ul.nav-socials {
   padding-right: 10em;
 }
 
-.h-nav .sl-side {
+.sl-side {
   padding: 0;
   list-style: none;
   position: relative;
-  left: 780px;
+  left: 100px;
   bottom: 380px;
   width: 90%;
 }
