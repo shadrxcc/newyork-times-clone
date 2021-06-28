@@ -16,7 +16,7 @@ html {
 .nyt-logo {
   width: 25%;
   position: relative;
-  bottom: 180px;
+  bottom: 205px;
   margin-left: 350px;
 }
 
@@ -46,7 +46,7 @@ html {
   flex-direction: column;
 }
 
-.ms-side {
+.h-nav {
   position: fixed;
   bottom: 607px;
   align-items: center;
@@ -57,7 +57,7 @@ html {
   z-index: 1;
 }
 
-.ms-side .h-nav {
+.h-nav .ms-side .top {
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -65,7 +65,7 @@ html {
   flex-direction: row;
   list-style: none;
   position: relative;
-  top: 10px;
+  top: 2px;
 }
 
 .header {
@@ -124,12 +124,12 @@ ul.nav-socials {
   padding-right: 10em;
 }
 
-.sl-side {
+.h-nav .sl-side {
   padding: 0;
   list-style: none;
   position: relative;
-  left: 100px;
-  bottom: 380px;
+  left: 780px;
+  bottom: 405px;
   width: 90%;
 }
 
@@ -225,6 +225,10 @@ aside {
   flex-direction: column;
   margin-left: 850px;
   align-content: center;
+}
+
+.picklist {
+    font-size: 90%;
 }
 
 .illustrations {
