@@ -17,7 +17,6 @@ html {
   width: 25%;
   position: relative;
   bottom: 180px;
-
 }
 
 .whatsapp {
@@ -68,16 +67,6 @@ html {
   top: 10px;
 }
 
-h1 {
-  font-size: 35px;
-  word-spacing: -17px;
-  font-family: englishtowne;
-  position: fixed;
-  left: 350px;
-  bottom: 580px;
-}
-
-
 .header {
   position: fixed;
 }
@@ -87,7 +76,6 @@ h1 {
   margin-left: 150px;
   position: relative;
   top: 10px;
-
 }
 
 .alan-guth {
@@ -117,7 +105,6 @@ a.social-icons {
 .head-tag {
   font-weight: bold;
   position: fixed;
-
 }
 
 .socials {
@@ -135,7 +122,6 @@ ul.nav-socials {
   padding-right: 10em;
 }
 
-
 .h-nav .sl-side {
   padding: 0;
   list-style: none;
@@ -143,9 +129,7 @@ ul.nav-socials {
   left: 780px;
   bottom: 380px;
   width: 90%;
-
 }
-
 
 input.login {
   width: 8%;
@@ -176,8 +160,6 @@ article {
   font-weight: lighter;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 
 .article-b {
   position: relative;
@@ -243,7 +225,6 @@ aside {
   align-content: center;
 }
 
-
 .illustrations {
   width: 64%;
   border-top: 1px grey solid;
@@ -303,7 +284,6 @@ a.author:hover {
 a.author {
   color: #333;
   text-decoration: underline;
-
 }
 
 .stanfordvid {
