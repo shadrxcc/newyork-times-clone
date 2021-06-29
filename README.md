@@ -13,7 +13,7 @@ This is a clone of a New York Times article project to test my knowledge on posi
 
 ### Live Demo
 ***
-https://shadrxcc.github.io/new-york-times-clone/
+https://shadrxcc.github.io/newyork-times-clone/
 
 #### Author
 Shadrach Akaade
