@@ -15,8 +15,8 @@ html {
 
 .nyt-logo {
   width: 25%;
-  position: relative;
-  bottom: 205px;
+  position: fixed;
+  bottom: 455px;
   margin-left: 350px;
 }
 
@@ -64,7 +64,7 @@ html {
   font-weight: bold;
   flex-direction: row;
   list-style: none;
-  position: relative;
+  position: fixed;
   top: 2px;
 }
 
@@ -127,9 +127,9 @@ ul.nav-socials {
 .h-nav .sl-side {
   padding: 0;
   list-style: none;
-  position: relative;
+  position: fixed;
   left: 780px;
-  bottom: 405px;
+  bottom: 615px;
   width: 90%;
 }
 
@@ -155,6 +155,7 @@ article {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 120%;
   margin-top: 20px;
+  text-align:center;
 }
 
 .dennis {
@@ -162,12 +163,24 @@ article {
   font-weight: lighter;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.inflation {
+  font-family: serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.solar {
+  width: 80%;
+}
+
+.solar-b {
+  width: 80%;
+}
 
 .article-b {
   position: relative;
   top: 250px;
   margin-bottom: 500px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 120%;
 }
 
@@ -376,6 +389,13 @@ input.explore {
   margin-left: 35px;
   position: relative;
   bottom: 40px;
+}
+
+.container-b {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 20px;
 }
 
 .box {
