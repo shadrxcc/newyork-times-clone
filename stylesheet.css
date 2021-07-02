@@ -22,6 +22,7 @@ header {
 
 .nyt-logo {
   width: 50%;
+  margin-left: 100px;
 }
 
 svg {
@@ -55,9 +56,6 @@ svg {
 .box {
   flex: 1;
   color: white;
-  font-size: 15px;
-  text-align: center;
-  width: 15%;
 }
 
 .box-2 {
