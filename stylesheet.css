@@ -1,6 +1,5 @@
 html {
   max-width: 100%;
-  
   margin: 0;
   padding: 0;
 }
@@ -56,6 +55,10 @@ svg {
 .box {
   width: 300px;
   flex: 1;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  width: 15%;
 }
 
 .box-2 {
@@ -361,7 +364,7 @@ input.explore {
 
 .container {
   display: flex;
-  justify-content: space-be;
+  justify-content: space-between;
   width: 90%;
   margin-left: 35px;
   position: relative;
@@ -373,13 +376,6 @@ input.explore {
   justify-content: space-around;
   position: relative;
   margin-top: 20px;
-}
-
-.box {
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  width: 15%;
 }
 
 ul {
