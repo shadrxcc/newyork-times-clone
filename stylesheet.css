@@ -1,6 +1,6 @@
 html {
   max-width: 100%;
-  overflow-x: hidden;
+  
   margin: 0;
   padding: 0;
 }
@@ -13,11 +13,21 @@ html {
   box-sizing: border-box;
 }
 
-.nyt-logo {
-  width: 25%;
+header {
   position: fixed;
-  bottom: 455px;
-  margin-left: 350px;
+  background-color: white;
+  z-index: 1;
+  padding: 10px;
+  top: 0;
+}
+
+.nyt-logo {
+  width: 50%;
+}
+
+svg {
+  position: relative;
+  top: 6px;
 }
 
 .whatsapp {
@@ -39,37 +49,28 @@ html {
   margin-left: 10px;
 }
 
+.header-container {
+  display: flex;
+}
+
+.box {
+  width: 300px;
+  flex: 1;
+}
+
+.box-2 {
+  flex: 2;
+}
+
+input.login {
+  width: 30%;
+}
+
 .sub-header {
   position: relative;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
-}
-
-.h-nav {
-  position: fixed;
-  bottom: 607px;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  border-bottom: 1px solid grey;
-  background-color: #fff;
-  z-index: 1;
-}
-
-.h-nav .ms-side .top {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  font-weight: bold;
-  flex-direction: row;
-  list-style: none;
-  position: fixed;
-  top: 2px;
-}
-
-.header {
-  position: fixed;
+  padding-top: 70px;
 }
 
 .main-p {
@@ -122,25 +123,6 @@ ul.nav-socials {
   list-style: none;
   display: flex;
   padding-right: 10em;
-}
-
-.h-nav .sl-side {
-  padding: 0;
-  list-style: none;
-  position: fixed;
-  left: 780px;
-  bottom: 615px;
-  width: 90%;
-}
-
-input.login {
-  width: 8%;
-}
-
-input.sub {
-  width: 15%;
-  margin-left: 0;
-  padding-right: 10px;
 }
 
 a {
@@ -196,37 +178,31 @@ a.cosmic-waves:hover {
 .article-c {
   position: relative;
   top: -150px;
-  font-size: 120%;
 }
 
 .article-d {
   position: relative;
   top: 50px;
-  font-size: 120%;
 }
 
 .article-e {
   position: relative;
   top: 300px;
-  font-size: 120%;
 }
 
 .article-f {
   position: relative;
   top: 500px;
-  font-size: 120%;
 }
 
 .article-g {
   position: relative;
   top: 900px;
-  font-size: 120%;
 }
 
 .article-h {
   position: relative;
   top: 1200px;
-  font-size: 120%;
 }
 
 aside {
@@ -246,7 +222,7 @@ aside {
 }
 
 .illustrations {
-  width: 64%;
+  width: 50%;
   border-top: 1px grey solid;
 }
 
@@ -385,7 +361,7 @@ input.explore {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-be;
   width: 90%;
   margin-left: 35px;
   position: relative;
