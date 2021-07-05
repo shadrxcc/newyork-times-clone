@@ -182,7 +182,10 @@ article {
   top: 5px;
 }
 
-.sub-a, .sub-b, .sub-c, .sub-d {
+.sub-a, 
+.sub-b, 
+.sub-c, 
+.sub-d {
   position: relative;
 }
 
