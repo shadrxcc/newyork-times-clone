@@ -182,26 +182,23 @@ article {
   top: 5px;
 }
 
-.sub-a, 
-.sub-b, 
-.sub-c, 
-.sub-d {
-  position: relative;
-}
-
 .sub-a {
+  position: relative;
   top: 21px;
 }
 
 .sub-b {
+  position: relative;
   top: 55px;
 }
 
 .sub-c {
+  position: relative;
   top: 72px;
 }
 
 .sub-d {
+  position: relative;
   top: 32px;
 }
 
