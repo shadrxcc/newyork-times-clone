@@ -155,14 +155,51 @@ article {
   font-family: serif;
   font-size: 15px;
   text-align: center;
+  padding-bottom: 100px;
+  padding-top: 20px;
 }
 
 .solar {
-  width: 80%;
+  width: 100%;
 }
 
 .solar-b {
-  width: 80%;
+  width: 100%;
+}
+
+.inflation-illustration-a {
+  position: relative;
+  top: 12px;
+}
+
+.inflation-illustration-c {
+  position: relative;
+  top: 20px;
+}
+
+.inflation-illustration-d {
+  position: relative;
+  top: 5px;
+}
+
+.sub-a, .sub-b, .sub-c, .sub-d {
+  position: relative;
+}
+
+.sub-a {
+  top: 21px;
+}
+
+.sub-b {
+  top: 55px;
+}
+
+.sub-c {
+  top: 72px;
+}
+
+.sub-d {
+  top: 32px;
 }
 
 .container-b {
@@ -202,6 +239,34 @@ iframe {
 
 .weekender {
   text-align: center;
+  border-bottom: 1px solid rgb(209, 204, 204);
+}
+
+.read {
+  position: relative;
+  top: 50px;
+  right: 120px;
+}
+
+.socialx {
+  position: relative;
+  width: 50%;
+  left: 330px;
+  top: 10px;
+}
+
+.endnote {
+  padding-top: 30px;
+  font-size: 60%;
+  color: rgb(116, 114, 114);
+}
+
+a.navgt {
+  text-decoration: underline;
+}
+
+a.navgt:hover {
+  text-decoration: none;
 }
 
 .sky {
@@ -249,13 +314,14 @@ footer {
 
 aside {
   display: flex;
-  font-size: 80%;
+  font-size: 100%;
   margin-top: 1200px;
-  padding-left: 20px;
+  position: relative;
+  right: 10px;
 }
 
 .illustrations {
-  width: 50%;
+  width: 60%;
 }
 
 .picklist {
