@@ -313,7 +313,7 @@ footer {
 .bottom {
   border-top: 1px #333 solid;
   position: fixed;
-  bottom: 0px;
+  bottom: 1px;
   background-color: white;
   margin-left: -10px;
 }
