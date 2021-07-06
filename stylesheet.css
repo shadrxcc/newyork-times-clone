@@ -19,6 +19,7 @@ header {
   z-index: 1;
   padding: 10px;
   top: 0;
+  width: 100%;
 }
 
 .nyt-logo {
@@ -243,7 +244,8 @@ iframe {
 .read {
   position: relative;
   top: 50px;
-  right: 120px;
+  right: 150px;
+  width: 40%;
 }
 
 .socialx {
@@ -295,6 +297,7 @@ footer {
   position: relative;
   padding-bottom: 20px;
   border-top: 1px solid rgb(128, 125, 125);
+  width: 100%;
 }
 
 .container {
@@ -319,7 +322,7 @@ footer {
 
 .bottom-nav {
   position: relative;
-  right: 25px;
+  right: 18px;
 }
 
 .btm {
@@ -382,7 +385,6 @@ a.picks:hover {
 input.explore {
   background-color: black;
   color: white;
-  margin-left: 1px;
 }
 
 .headlines {
@@ -413,4 +415,8 @@ input.explore {
   width: 30%;
   font-size: 95%;
   border-top: 1px solid rgb(168, 167, 167);
+}
+
+.news-container {
+  width: 100%;
 }
