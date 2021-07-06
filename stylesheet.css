@@ -391,10 +391,11 @@ input.explore {
   position: relative;
   padding-bottom: 50px;
   right: 45px;
+  width: 65%;
 }
 
 .headbox {
-  width: 250px;
+  width: 270px;
 }
 
 .headline-img {
@@ -408,9 +409,9 @@ input.explore {
 
 .popular {
   position: absolute;
-  left: 800px;
-  width: 30%;
-  bottom: 190px;
+  left: 850px;
+  width: 20%;
+  bottom: 30px;
   font-size: 95%;
   padding-right: 10px;
   border-top: 1px solid rgb(168, 167, 167);
