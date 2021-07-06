@@ -389,7 +389,7 @@ input.explore {
   flex-wrap: wrap;
   position: relative;
   padding-bottom: 50px;
-  right: 45px;
+  right: 5px;
   width: 65%;
 }
 
@@ -408,9 +408,9 @@ input.explore {
 
 .popular {
   position: absolute;
-  left: 750px;
+  left: 720px;
   width: 100%;
-  bottom: 30px;
+  bottom: 650px;
   font-size: 95%;
   padding-right: 10px;
   border-top: 1px solid rgb(168, 167, 167);
