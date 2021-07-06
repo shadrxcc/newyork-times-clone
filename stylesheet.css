@@ -318,6 +318,7 @@ footer {
   position: fixed;
   bottom: 1px;
   background-color: white;
+  width: 100%;
 }
 
 .bottom-nav {
