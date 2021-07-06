@@ -413,7 +413,7 @@ input.explore {
 .popular {
   position: absolute;
   left: 850px;
-  width: 30%;
+  width: 100%;
   font-size: 95%;
   border-top: 1px solid rgb(168, 167, 167);
 }
