@@ -160,53 +160,42 @@ article {
   padding-top: 20px;
 }
 
-.solar {
+.big-bang {
   width: 100%;
 }
 
-.solar-b {
-  width: 100%;
+.inf {
+  width: 180px;
 }
 
-.inflation-illustration-a {
-  position: relative;
-  top: 12px;
+.boxx-1 {
+  padding-top: 10px;
 }
 
-.inflation-illustration-c {
-  position: relative;
-  top: 20px;
+.boxx-3 {
+  padding-top: 25px;
 }
 
-.inflation-illustration-d {
-  position: relative;
-  top: 5px;
+.boxx-4 {
+  padding-top: 10px;
 }
 
-.sub-a {
-  position: relative;
-  top: 21px;
+.boxx-5 {
+  padding-top: 10px;
 }
 
-.sub-b {
-  position: relative;
-  top: 55px;
-}
-
-.sub-c {
-  position: relative;
-  top: 72px;
-}
-
-.sub-d {
-  position: relative;
-  top: 32px;
+.boxx-6 {
+  padding-top: 10px;
 }
 
 .container-b {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -120px;
   position: relative;
-  margin-top: 20px;
+  left: 70px;
+  top: 40px;
 }
 
 ul {
@@ -275,10 +264,27 @@ a.navgt:hover {
   width: 100%;
 }
 
+.nyt-logo-2 {
+  width: 15%;
+}
+
+.footer-logo {
+  position: relative;
+  right: 380px;
+  padding-top: 15px;
+}
+
+.homepage {
+  text-align: right;
+  position: relative;
+  bottom: 40px;
+}
+
 footer {
   text-align: center;
   position: relative;
   padding-bottom: 20px;
+  border-top: 1px solid rgb(128, 125, 125);;
 }
 
 .container {
@@ -360,4 +366,28 @@ a.picks:hover {
 input.explore {
   background-color: black;
   color: white;
+}
+
+.headlines {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  position: relative;
+  right: 35px;
+  padding-bottom: 50px;
+}
+
+.headbox {
+  width: 250px;
+}
+
+.headline-img {
+  width: 85%;
+}
+
+.popular {
+  position: absolute;
+  left: 750px;
+  width: 100%;
+  bottom: 70px;
 }
