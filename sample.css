@@ -1,0 +1,48 @@
+.box-1 {
+    background-color: red;
+}
+
+.box-2 {
+    background-color: green;
+}
+
+.box-3 {
+    background-color: aqua;
+    flex: 2;
+}
+
+.box-4 {
+    background-color: yellow;
+}
+
+.box-5 {
+    background-color: tomato;
+}
+
+.box-6 {
+    background-color: brown;
+}
+
+.box-7 {
+    background-color: blue;
+}
+
+.box-8 {
+    background-color: skyblue;
+}
+
+.box-9 {
+    background-color: red;
+}
+
+.box {
+    width: 300px;
+}
+img {
+    width: 250px;
+}
+
+div {
+    display: flex;
+   flex-wrap: wrap;
+}
