@@ -166,6 +166,7 @@ article {
 
 .inf {
   width: 180px;
+  padding-right: 5px;
 }
 
 .boxx-1 {
@@ -186,6 +187,14 @@ article {
 
 .boxx-6 {
   padding-top: 10px;
+}
+
+.boxx-7 {
+  padding-top: 23px;
+}
+
+.boxx-8 {
+  padding-top: 13px;
 }
 
 .container-b {
