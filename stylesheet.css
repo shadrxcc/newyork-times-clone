@@ -382,6 +382,7 @@ a.picks:hover {
 input.explore {
   background-color: black;
   color: white;
+  margin-left: 1px;
 }
 
 .headlines {
@@ -408,10 +409,8 @@ input.explore {
 
 .popular {
   position: absolute;
-  left: 720px;
-  width: 100%;
-  bottom: 650px;
+  left: 850px;
+  width: 30%;
   font-size: 95%;
-  padding-right: 10px;
   border-top: 1px solid rgb(168, 167, 167);
 }
