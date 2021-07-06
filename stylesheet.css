@@ -315,7 +315,6 @@ footer {
   position: fixed;
   bottom: 1px;
   background-color: white;
-  margin-left: -10px;
 }
 
 .bottom-nav {
@@ -409,8 +408,8 @@ input.explore {
 
 .popular {
   position: absolute;
-  left: 850px;
-  width: 20%;
+  left: 750px;
+  width: 100%;
   bottom: 30px;
   font-size: 95%;
   padding-right: 10px;
